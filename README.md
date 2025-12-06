@@ -301,8 +301,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Link**: [https://github.com/yourusername/streamflix-subscription](https://github.com/yourusername/streamflix-subscription)
-- **Email**: justinedwards106@gmial.com
+- **Project Link**: [https://github.com/yourusername/streamflix-subscription](https://github.com/JTedwards106/streamflix-subscription)
+- **Email**: justinedwards106@gmail.com
 
 ## 📚 References
 
