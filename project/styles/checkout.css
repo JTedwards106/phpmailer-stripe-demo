@@ -1,0 +1,109 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #FF4B2B;
+        min-height: 100vh;
+        padding: 40px 20px;
+        }
+        
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 15px;
+        padding: 40px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        
+    .header {
+        text-align: center;
+        margin-bottom: 30px;
+        }
+        
+    .header h1 {
+        color: #FF4B2B;
+        font-size: 32px;
+        margin-bottom: 10px;
+        }
+        
+    .order-summary {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        }
+        
+    .order-summary h2 {
+        color: #333;
+        font-size: 20px;
+        margin-bottom: 15px;
+        }
+        
+    .summary-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+        }
+        
+    .summary-row:last-child {
+        border-bottom: none;
+        font-weight: bold;
+        font-size: 18px;
+        color: #FF4B2B;
+        margin-top: 10px;
+        }
+        
+    .payment-form {
+        margin-top: 30px;
+        }
+        
+    #card-element {
+        border: 2px solid #e0e0e0;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 20px;
+        }
+        
+    #card-errors {
+        color: #c33;
+        margin-bottom: 20px;
+        font-size: 14px;
+        }
+        
+    .submit-btn {
+        width: 100%;
+        padding: 15px;
+        background: #FF4B2B;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.2s;
+        }
+        
+    .submit-btn:hover:not(:disabled) {
+        transform: scale(1.02);
+        }
+        
+    .submit-btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+        
+    .loading {
+        display: none;
+        text-align: center;
+        margin-top: 20px;
+        }
+        
+    .loading.active {
+        display: block;
+        }
